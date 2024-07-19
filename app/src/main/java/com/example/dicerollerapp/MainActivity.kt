@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         val diceImage: ImageView = findViewById(R.id.diceBtn)
 
         diceImage.setOnClickListener {
+            diceImage.isEnabled = false
             rollDice()
         }
     }
@@ -51,6 +52,7 @@ class MainActivity : AppCompatActivity() {
 
                 delay(200L)
             }
+            diceImage.isEnabled = true
         }
     }
 }
