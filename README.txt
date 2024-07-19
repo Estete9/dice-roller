@@ -2,6 +2,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
+<img src="./src/logo.svg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Dice Roller</b></h3>
@@ -33,7 +34,7 @@
 
 # 📖 Dice Roller <a name="about-project"></a>
 
-The **Dice Roller** This is a minimalist Android App where you can roll a six-sided dice.
+The **Dice Roller** is a minimalist Android App where you can roll a six-sided dice.
 
 ## 🛠 Built With <a name="built-with"></a> 
 
