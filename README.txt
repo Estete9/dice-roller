@@ -1,8 +1,12 @@
-<a name="readme-top"></a>
-<div align="center">
-  <h1><b>Dice Roller</b></h1>
-</div>
 
+<a name="readme-top"></a>
+
+<div align="center">
+  <br/>
+
+  <h3><b>Dice Roller</b></h3>
+
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -23,7 +27,6 @@
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -135,16 +138,6 @@ Feel free to check the [issues page](https://github.com/Estete9/dice-roller/issu
 If you like this project comment or send it a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-<!--
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
 
 <!-- LICENSE -->
 
