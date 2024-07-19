@@ -1,53 +1,50 @@
-
 <a name="readme-top"></a>
 
 <div align="center">
-<img src="./src/logo.svg" alt="logo" width="140"  height="auto" />
+  <img src="./src/logo.svg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Dice Roller</b></h3>
+  <h3><b>The Bookstore - Async Redux Reading List</b></h3>
 
 </div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Dice Roller](#-recipe-app-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [Live Demo](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-  - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Dice Roller <a name="about-project"></a>
+# 📖 The Bookstore - React Book reading list <a name="about-project"></a>
 
-The **Dice Roller** is a minimalist Android App where you can roll a six-sided dice.
+**The Bookstore** is a website that allows you to: Display a list of books, Add a book, and Remove a selected book
 
-## 🛠 Built With <a name="built-with"></a> 
-
-- Android Studio
-- Coroutines
-- XML-based layouts
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Language</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://kotlinlang.org">Kotlin</a></li>
+    <li><a href=https://legacy.reactjs.org/docs/introducing-jsx.html>JSX</a></li>
+    <li><a href="https://sass-lang.com">SASS - SCSS</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
   </ul>
 </details>
 
@@ -55,48 +52,52 @@ The **Dice Roller** is a minimalist Android App where you can roll a six-sided d
 
 ### Key Features <a name="key-features"></a>
 
-- [Animation with coroutines]
-- [Button disable while coroutine runs]
-
-
+- **Full React app**
+- **Add, Remove, and Fetch async logic**
+- **Use of Modular CSS**
+- **Use of react components**
+- **Use of react Router and NavLink**
+- **Use of Redux AsyncThunk for API consumption**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO  -->
-## 💻 Live Demo <a name="live-demo"></a>
-
-Check the documentation recording [here](https://www.loom.com/share/2452b6b963424aca8b3f9eec7a48f281) 
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+To run this project you need:
 
-* **Android Studio:** [https://developer.android.com/studio](https://developer.android.com/studio) (Recommendedversion: Latest stable release)
-* **Android SDK:** Install the required Android SDKs through Android Studio's SDK Manager.
-* **Java Development Kit (JDK):** Version 8 or later.
+- VSCode
+- Node
+- Web Browser
 
 ### Setup
 
-Clone this repository to your desired folder:
+Make sure you have VSCode, Node and a Web Browser installed
 
-```sh
-git clone https://github.com/Estete9/dice-roller.git
-```
---->
 
-### Build and Run
-1. **Build the project:**
-   * Click the "Build" button (green hammer icon) in the toolbar or use the shortcut `Ctrl + F9` (Windows/Linux) or `Command + F9` (macOS).
-2. **Run the app:**
-   * Connect an Android device or start an emulator.
-   * Click the "Run" button (green play icon) or use the shortcut `Shift + F10` (Windows/Linux) or `Control + R` (macOS).
+### Install
+In the root folder, run the script `npm install` to install all the libraries necessary.
+
+Make sure eslint-config-airbnb is installed or install with:
+
+`npm install eslint-config-airbnb eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-import --save-dev`
+
+
+### Preview
+
+#### How to Run it
+- Run the script `npm start` to see a working version of the project
+
+
+### Run tests
+
+Use the scripts: 
+- `npm run test` to run your tests
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,16 +110,15 @@ git clone https://github.com/Estete9/dice-roller.git
 
 - GitHub: [@Estete9](https://github.com/Estete9)
 - Twitter: [@NaughTban](https://twitter.com/NaughTban)
-- LinkedIn: [Esteban Palacios](https://www.linkedin.com/in/dev-esteban-palacios/)
+- LinkedIn: [Esteban Palacios](https://www.linkedin.com/in/esteban-palacios-5030a772/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add sound effect when rolling]**
-- [ ] **[Allow the user to keep track of all rolled dice]**
-
+- **Implement a local storage that saves and loads book information**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +128,7 @@ git clone https://github.com/Estete9/dice-roller.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Estete9/dice-roller/issues).
+Feel free to check the [issues page](https://github.com/Estete9/bookstore-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,15 +136,22 @@ Feel free to check the [issues page](https://github.com/Estete9/dice-roller/issu
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project comment or send it a star
+
+If you like this project remember to star and share it 🥳️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+- ACKNOWLEDGMENTS TO CREATIVE LICENSE AND OTHERS
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md)-licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
